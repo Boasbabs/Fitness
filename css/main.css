@@ -1,0 +1,125 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #a2ca29;
+	margin: 0;
+	padding: 0;
+}
+/*=============================
+Landing Section
+============================*/
+#landing {
+	
+	/*background-image: url("../images/fit-couple.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #C87C3E;
+	color: #FFF;
+	height: 100vh;
+	width: 100%;
+	padding-top: 3em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+.container-fluid {
+	position: relative;
+}
+.brand {
+	font-size: 1.5em;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 600;
+    position: absolute;
+    top:0;
+    margin-left: 1.7em;
+}
+.brand:hover{
+	text-decoration: none;
+}
+.logo {
+	font-size: 4em;
+}
+.pull-right a {
+	padding:0 1.5em;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 600;
+}
+.pull-right a:hover{
+	text-decoration: none;
+	color: #a2ca29;
+}
+.banner {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+.banner img {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+/*.landing .img {
+	top: 0;
+    position: absolute;
+    left: 0;
+    display: inline;
+    width: 100%;
+    z-index: -1;
+}*/
+
+/*i made the navigation to be transparent so that pic will appear*/
+/*.navbar, .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 2em;
+}*/
+/*.navbar-default .navbar-collapse, .navbar-form {
+    border-color: none;
+    background-color: transparent;
+}*/
+/*.navbar-default .navbar-nav>li>a {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.75em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	color: #FFF;
+}*/
+/*.navbar-default .navbar-nav>li>a:hover {
+	color: #a2ca29;
+}*/
+
+/*.navbar-default .navbar-brand { 
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+	margin-left: 1.2em;
+	font-size: 1.5em;
+}*/
+/*.navbar-default .navbar-brand:hover {
+	color: #a2ca29;
+}*/
+/*.logo {
+    margin-top: 0;
+    margin-right: 0.3em;
+}*/
+
+/*#landing img {
+	width: 100%;
+	position: absolute;
+	top:0;
+	z-index: -10;
+}*/
+
+/*===================================
+Features Section
+==================================*/
+#features {
+	position: relative;
+	background-color: #a2ca29;
+	color: #fff;
+    min-height: 100vh;
+    text-align: left;
+    padding: 15vh 0;
+}
