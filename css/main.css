@@ -10,10 +10,10 @@ Landing Section
 ============================*/
 #landing {
 	
-	/*background-image: url("../images/fit-couple.jpg");
+	background-image: url("../images/fit-couple.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;*/
-	background-color: #C87C3E;
+	background-size: cover;
+	/*background-color: #C87C3E;*/
 	color: #FFF;
 	height: 100vh;
 	width: 100%;
@@ -122,4 +122,5 @@ Features Section
     min-height: 100vh;
     text-align: left;
     padding: 15vh 0;
+    font-weight: 400;
 }
