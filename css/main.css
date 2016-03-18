@@ -145,3 +145,21 @@ Features Section
 #features div {
 	margin-top: 1em;
 }
+.subfeatures {
+	color: #000;
+	background-color: #FFF;
+	padding: 0;
+	text-align: center;
+	/*margin: 0; */
+}
+.fitness-img  {
+	margin-top: 0;
+	margin-bottom: 0;
+	top: 0;
+	bottom: 0;
+}
+#features .topsub, #features .lowsub {
+	margin-top: 0;
+	padding-top: 0;
+	/*max-height: 250px; */
+}
