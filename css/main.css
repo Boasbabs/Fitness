@@ -121,8 +121,11 @@ Features Section
 	color: #fff;
     min-height: 100vh;
     text-align: left;
-    padding: 15vh 0;
+    padding: 0;
     font-weight: 400;
+}
+#features .container {
+	margin-top: 0;
 }
 #features p {
 	display: block;
@@ -162,4 +165,18 @@ Features Section
 	margin-top: 0;
 	padding-top: 0;
 	/*max-height: 250px; */
+}
+.small-heading {
+	color: #FE634F;
+	font-weight: 600;
+	margin: 0;
+}
+.big-heading {
+	color: #a2ca29;
+	font-weight: 400;
+	margin: 0;
+ 	margin-bottom: 2em;
+}
+.micro-paragraph {
+	padding: 7em 5em;
 }
