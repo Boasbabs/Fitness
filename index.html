@@ -2,95 +2,135 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Fitness</title>
-	<!-- Bootstrap Latest compiled and minified CSS -->
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+	<title>Fitness Website</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js" charset="utf-8"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
 
-	<!-- Font Awesome -->
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,600,700italic,700' rel='stylesheet' type='text/css'>
-	<!--Main Css-->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<section id="landing">
-		<header class="container-fluid">
-			<nav class="pull-left">
-				<div>
-					<i class="fa fa-map-marker fa-flip-vertical logo"></i>
-				</div>
-				<a class="brand">Fitness</a>
+		<div id="landing">
+			<nav class="nav navbar-default nav-transparent"> <!--I changed the navbar to nav -->
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <i class="ion-waterdrop"></i>
+			      <a class="navbar-brand" href="#"><span class="brand-underline">Fit</span>ness</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      
+			      <ul class="nav navbar-nav navbar-right nav-heads">
+			        <li><a href="#">About</a></li>
+			        <li><a href="#">How It Works</a></li>
+			        <li><a href="#">Service</a></li>
+			        <li><a href="#">Faq</a></li>
+			        <li><a href="#">Contact</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
 			</nav>
-			<nav class="pull-right">
- 				 	<a href="#">About</a>
-			       	<a href="#">How It Works</a>
-			        <a href="#">Services</a>
-			        <a href="#">Faq</a>
-			        <a href="#">Contact</a>
-			</nav>
-		</header>
-		<!-- <div class="banner">
-			<img src="images/fit-couple.jpg" class="img-responsive">
-		</div> -->
-	</section>
-	<section id="features">
-		<div class="container">
-			<div class="row features-type">
-				<div class="col-lg-3 col-md-6">
-					<i class="fa fa-briefcase icon"></i>
-					<h3>Resources</h3>
-					<p class="resoures">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto veniam minima saepe facere omnis, amet cum, neque perspiciatis quod deleniti enim harum sit consequuntur. Delectus laudantium nobis quo, vitae perspiciatis?</p>
-					<a href="#">Explain more <i class="fa fa-long-arrow-right"></i></a>
-				</div><!--
-				--><div class="col-lg-3 col-md-6">
-					<i class="fa fa-tachometer icon"></i>
-					<h3>Training</h3>
-					<p class="training">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dolorem maiores rem culpa sunt, incidunt voluptatibus voluptates natus, debitis soluta. Numquam modi aliquam id quas alias. Deleniti architecto optio temporibus.</p>
-					<a href="#">Explain more <i class="fa fa-long-arrow-right"></i></a>
-				</div><!--
-				--><div class="col-lg-3 col-md-6">
-					<i class="fa fa-cloud icon"></i>
-					<h3>Connect</h3>
-					<p class="connect">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi veniam, nesciunt! Atque repellendus ad perferendis quibusdam id ratione nesciunt tempora hic itaque, esse quas, aliquam minima beatae voluptatem eos nulla!</p>
-					<a href="#">Explain more <i class="fa fa-long-arrow-right"></i></a>
-				</div><!--
-				--><div class="col-lg-3 col-md-6">
-					<i class="fa fa-commenting-o icon"></i>
-					<h3>Communicate</h3>
-					<p class="communicate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam tempora nobis nulla odit. Eius molestias repellat, totam molestiae dicta beatae eos nulla iste sit illo, tenetur, itaque consequatur doloremque velit.Lorem ipsum dolor sit amet,</p>
-					<a href="#">Explain more <i class="fa fa-long-arrow-right"></i></a>
+
+			<div class="container">
+				<div class="landing-caption">
+					<h1>Fitness in a can<span class="caption-slash">/</span></h1>
+					<p>Yes you can<span class="caption-paragraph-slash">/</span></p>
 				</div>
 			</div>
 		</div>
-		<div class="container subfeatures">
-			<div class="row topsub">
-				<div class="col-lg-8 col-md-8 pull-right fitness-img">
-						<img src="images/stretch.jpg" alt="a woman stretching" class="img-responsive img-fluid">
+		
+		<section id="feature-one">
+			<div class="container ">
+				<div class="row feature-one-part-one">
+					<div class="col-md-3 col-feature">
+						<i class="ion-ios-briefcase-outline"></i>
+						<h4 class="brief-heading-one">Resources</h4>
+						<p class="features-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque blanditiis suscipit aliquam voluptate culpa voluptatibus optio deleniti! Ducimus facere possimus, nulla quam vitae, fugiat suscipit provident, quo officia consequatur repellat.</p>
+						<p>
+							<a href="" class="explain-more">
+							Explore more <i class="ion-ios-arrow-thin-right"></i>
+							</a>
+						</p>
+					</div>
+					<div class="col-md-3 col-feature">
+						<i class="ion-ios-speedometer-outline"></i>
+						<h4 class="brief-heading-one">Training & Funding</h4>
+						<p class="features-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quisquam commodi labore id non, laudantium tenetur sint, rem laboriosam error sequi voluptatem esse ratione quos nihil officiis dicta molestiae voluptate.</p>
+						<p>
+							<a href="" class="explain-more">
+							Browse training <i class="ion-ios-arrow-thin-right"></i>
+							</a>
+						</p>
+					</div>
+					<div class="col-md-3 col-feature">
+						<i class="ion-ios-cloud-outline"></i>
+						<h4 class="brief-heading-one">Connect</h4>
+						<p class="features-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque odit rem accusantium error, modi dolores qui sapiente, quo deserunt suscipit optio, voluptatum, voluptates. Architecto pariatur natus dolorum, laborum debitis distinctio.</p>
+						<p>
+							<a href="" class="explain-more">
+							Connect now <i class="ion-ios-arrow-thin-right"></i>
+							</a>
+						</p>
+					</div>
+					<div class="col-md-3 col-feature">
+						<i class="ion-ios-chatboxes-outline"></i>
+						<h4 class="brief-heading-one">Communicate</h4>
+						<p class="features-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi optio temporibus dolorem provident vitae, eum ea magni, nostrum. Non aperiam, beatae? Cum, amet possimus saepe dolorum hic maiores neque modi. Lorem ipsum dolor sit amet.</p>
+						<p>
+							<a href="" class="explain-more">
+							Start now <i class="ion-ios-arrow-thin-right"></i>
+							</a>
+						</p>
+					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 pull-left micro-paragraph">
-					<h5 class="small-heading">It's All About</h5>
-					<h2 class="big-heading">Fitness First</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eligendi voluptate quibusdam, atque et doloremque minus cumque, totam quo culpa sunt perferendis id inventore a repudiandae modi. Natus, fugiat, officia.</p>
-					<a href="#">Read more</a>
+				<div class="row feature-one-part-two">
+					<div class="col-lg-4 fitness-first">
+						<h5>It's all about</h5>
+						<h2>Fitness First</h2>
+						<i class="ion-waterdrop"></i>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime architecto quam blanditiis, laborum excepturi nobis eligendi, odio nisi suscipit quia sint non explicabo odit alias similique. Odio, suscipit, eligendi. Modi!</p>
+						<a href="" class="fitness-link">Read more</a>
+					</div>
+					<div class="col-lg-8">
+						<div class="fitness-image">
+							<img src="images/stretch.jpg" alt="a stretching woman">
+						</div>
+					</div>
+				</div>
+				<div class="row feature-one-part-two">
+					
+					<div class="col-lg-4 pull-right fitness-first">
+						<h5>Love Your</h5>
+						<h2>Your Body</h2>
+						<i class="ion-waterdrop"></i>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime architecto quam blanditiis, laborum excepturi nobis eligendi, odio nisi suscipit quia sint non explicabo odit alias similique. Odio, suscipit, eligendi. Modi!</p>
+						<a href="" class="fitness-link">Read more</a>
+					</div>
+					<div class="col-lg-8 pull-left">
+						<div class="body-image">
+							<img src="images/wrist.jpg" alt="a man checking time">
+						</div>
+					</div>
+					
 				</div>
 			</div>
-			<div class="row lowsub">
-				<div class="col-lg-8 col-md-8 pull-left">
-						<img src="images/wrist.jpg" alt="a man checking time" class="img-responsive img-fluid">
-				</div>
-				<div class="col-lg-4 col-md-4 pull-right micro-paragraph">
-					<h5 class="small-heading">Love You</h5>
-					<h2  class="big-heading">Love Your Body</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eligendi voluptate quibusdam, atque et doloremque minus cumque, totam quo culpa sunt perferendis id inventore a repudiandae modi. Natus, fugiat, officia.</p>
-					<a href="#">Read more</a>
-				</div>
-			</div>
-		</div>
-	</section>
+		</section>
 </body>
 </html>

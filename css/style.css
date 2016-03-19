@@ -1,0 +1,194 @@
+html, 
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FE634F;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #FFF;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+div {
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+/*==================================================
+first part: landing page
+================================================*/
+#landing {
+	background: url("../images/fit-couple.jpg") center center no-repeat;
+	//background-color: red;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+} 
+/*logo*/
+.navbar-header>i { 
+    color: #F0785D;
+    font-size: 2.5em;
+    position: absolute;
+    margin-left: 0.6em;
+    margin-top: 0.2em;
+}
+/*navigation*/
+.nav.navbar-default.nav-transparent {
+    background-color: transparent !important;
+    border: none;
+    padding-top: 2em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8em;
+    margin: 0 1.5em;
+    letter-spacing: 0.1em; //#A2CA29
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #A2CA29;
+}
+/*brand left top*/
+.navbar-default .navbar-brand {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding-left: 3em;
+    letter-spacing: 0.2em;	
+}
+.container-fluid>.navbar-header>a:hover {
+	color: #F0785D;
+}
+.brand-underline {
+	border-bottom: 3.5px solid #A2CA29;
+	}
+/*caption */
+.caption-slash {
+	color: #A2CA29;
+}
+.caption-paragraph-slash {
+	color: #F0785D;
+}
+.landing-caption {
+	position: absolute;
+    bottom: 18%;
+    left: 8%;
+    text-align: left;
+    transform: translateY(100%)
+}
+.landing-caption>p {
+	color: #FFF;
+	text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8em;
+    margin: 0;
+    margin-left: 14em;
+    letter-spacing: 0.2em;
+}
+#landing-caption>h1 {
+	font-weight: 300;
+	font-size: 4em;
+}
+/*
+=======================================
+second section of the page
+======================================*/
+#feature-one {
+	color: #FFF;
+	background-color: #A2CA29;
+}
+.feature-one-part-one {
+	color: #FFF;
+	background-color: #A2CA29;
+}
+.explain-more {
+	color: #FFF;
+}
+.explain-more:hover {
+	color: #F0785D;
+	text-decoration: none;
+}
+.col-feature {
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+.col-feature>i {
+	font-size: 3em;
+	margin-top: 1em;
+}
+.col-feature>h4 {
+	text-transform: capitalize;
+	margin: 0.8em 0;
+	font-weight: 400;
+}
+/*=======================
+second part in section 2
+==================================*/
+.feature-one-part-two{
+	color: #4D545F;
+	background-color: #FFF;
+	text-align: center;
+}
+.fitness-first {
+	padding: 4.2em 2em;
+}
+.feature-one-part-two h2 {
+	color: #A2CA29; /*//green heading*/
+	margin-bottom: 0.7em;
+}
+.feature-one-part-two p {
+	margin: 1.2em 2em 0 2em;
+}
+.feature-one-part-two h5 {
+	color: #F0785D; /*//red heading*/
+	font-weight: 600;
+}
+.feature-one-part-two i {
+	font-size: 1.4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #CFDEDA; /*//grey icon*/
+}
+.fitness-first>a {
+	color: #A2CA29;
+	text-decoration: none;
+}
+.fitness-first>a:hover {
+	color: #F0785D;
+	text-decoration: none;
+}
+/*================================
+the image beside fitness first
+===================================*/
+.fitness-image {
+	background-size: cover;
+	object-fit: fill;
+	max-height: 100%;
+	max-width: 100%;
+}
+.fitness-image>img {
+	display: inline-block;
+	position: relative;
+	width: 102%; 
+	max-width: 102%																																																																																																																																																																																																																																	
+}
+.body-image {
+	background-size: cover;
+	object-fit: fill;
+	max-height: 100%;
+	max-width: 100%;
+}
+.body-image>img {
+	display: inline-block;
+	position: relative;
+	width: 102%; 
+	max-width: 102%																																																																																																																																																																																																																																	
+}
