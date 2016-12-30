@@ -1,24 +1,65 @@
-html, 
-body {
-	height: 100%;
+@charset "UTF-8";
+@import url(ionicons.min.css);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of Css Reset ==============*/
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #FE634F;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #FFF;
 	text-transform: uppercase;
-	margin: 0;
-	padding: 0;
-}
-div {
-	padding: 0;
-	margin: 0;
-}
-img {
-	max-width: 100%;
 }
 /*==================================================
 first part: landing page
@@ -28,10 +69,10 @@ first part: landing page
 	//background-color: red;
 	background-size: cover;
 	height: 100vh;
-	width: 100%;
-} 
+	/*width: 100%;*/
+}
 /*logo*/
-.navbar-header>i { 
+.navbar-header>i {
     color: #F0785D;
     font-size: 2.5em;
     position: absolute;
@@ -62,7 +103,7 @@ first part: landing page
     font-weight: 600;
     font-size: 1.3em;
     padding-left: 3em;
-    letter-spacing: 0.2em;	
+    letter-spacing: 0.2em;
 }
 .container-fluid>.navbar-header>a:hover {
 	color: #F0785D;
@@ -177,8 +218,8 @@ the image beside fitness first
 .fitness-image>img {
 	display: inline-block;
 	position: relative;
-	width: 102%; 
-	max-width: 102%																																																																																																																																																																																																																																	
+	width: 102%;
+	max-width: 102%
 }
 .body-image {
 	background-size: cover;
@@ -189,6 +230,6 @@ the image beside fitness first
 .body-image>img {
 	display: inline-block;
 	position: relative;
-	width: 102%; 
-	max-width: 102%																																																																																																																																																																																																																																	
+	width: 102%;
+	max-width: 102%
 }
