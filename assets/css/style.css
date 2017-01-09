@@ -180,6 +180,8 @@ second section of the page
 .feature1-part-one {
 	color: #FFF;
 	background-color: #A2CA29;
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 .explain-more {
 	color: #FFF;
@@ -187,10 +189,6 @@ second section of the page
 .explain-more:hover {
 	color: #F0785D;
 	text-decoration: none;
-}
-.col-feature {
-	margin-top: 6em;
-	margin-bottom: 6em;
 }
 .col-feature>i {
 	font-size: 3em;
@@ -208,6 +206,7 @@ second part in section 2
 	color: #4D545F;
 	background-color: #FFF;
 	text-align: center;
+  position: relative;
 }
 .content-1-third {
 	padding: 4.2em 2em;
