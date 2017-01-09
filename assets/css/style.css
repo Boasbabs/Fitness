@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 40px;
 }
+
+/* COLORS===========================
+Logo color: #F0785D
+Lemon color: #A2CA29
+*/
 /*==================================================
 first part: landing page
 ================================================*/
@@ -71,7 +76,10 @@ first part: landing page
 	background-image: url("../images/hero.jpg");
 	background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
 	height: 100vh;
+  width: 100%;
 }
 /*logo*/
 .ion-waterdrop {
@@ -94,7 +102,7 @@ first part: landing page
     font-weight: 400;
     font-size: 0.8em;
     margin: 0 1.5em;
-    letter-spacing: 0.1em; //#A2CA29
+    letter-spacing: 0.1em;
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: #A2CA29;
@@ -123,23 +131,19 @@ first part: landing page
 }
 .landing-caption {
 	position: absolute;
-    bottom: 18%;
-    left: 8%;
-    text-align: left;
-    transform: translateY(100%)
+  bottom: 25%;
+  left: 8%;
+  text-align: left;
+  transform: translateY(100%)
 }
 .landing-caption>p {
 	color: #FFF;
 	text-transform: uppercase;
-    font-weight: 400;
-    font-size: 0.8em;
-    margin: 0;
-    margin-left: 14em;
-    letter-spacing: 0.2em;
-}
-#landing-caption>h1 {
-	font-weight: 300;
-	font-size: 4em;
+  font-weight: 700;
+  font-size: 0.9em;
+  margin-left: 11em;
+  margin-top: 0.8em;
+  letter-spacing: 0.2em;
 }
 /*=======================================
 Overlay
@@ -154,7 +158,6 @@ Overlay
   transform: skewY(-2deg);
   -webkit-transform-origin: right;
   transform-origin: right;
-  /*z-index: -1;*/
 }
 
 /*=======================================
