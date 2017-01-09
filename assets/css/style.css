@@ -65,23 +65,23 @@ h1, h2, h3, h4, h5, h6 {
 first part: landing page
 ================================================*/
 #landing {
-	background: url("../images/fit-couple.jpg") center center no-repeat;
-	//background-color: red;
+	background-image: url("../images/hero.jpg");
 	background-size: cover;
+  background-repeat: no-repeat;
 	height: 100vh;
-	/*width: 100%;*/
 }
 /*logo*/
-.navbar-header>i {
+.ion-waterdrop {
     color: #F0785D;
     font-size: 2.5em;
+    display: table; /* my hack for mozilla browser */
     position: absolute;
     margin-left: 0.6em;
     margin-top: 0.2em;
 }
 /*navigation*/
 .nav.navbar-default.nav-transparent {
-    background-color: transparent !important;
+    background-color: transparent; /* !important; */
     border: none;
     padding-top: 2em;
 }
@@ -138,13 +138,29 @@ first part: landing page
 	font-weight: 300;
 	font-size: 4em;
 }
-/*
-=======================================
+/*=======================================
+Overlay
+======================================*/
+.angled-overlay {
+  width: 100%;
+  height: 100px;
+  background-color: #fd634e;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+  transform: skewY(-2deg);
+  -webkit-transform-origin: right;
+  transform-origin: right;
+  /*z-index: -1;*/
+}
+
+/*=======================================
 second section of the page
 ======================================*/
 #feature-one {
 	color: #FFF;
 	background-color: #A2CA29;
+  position: relative;
 }
 .feature-one-part-one {
 	color: #FFF;
