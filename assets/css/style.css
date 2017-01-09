@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 40px;
 }
+h2 {
+  font-size: 32px;
+}
 
 /* COLORS===========================
 Logo color: #F0785D
@@ -163,12 +166,18 @@ Overlay
 /*=======================================
 second section of the page
 ======================================*/
-#feature-one {
+#feature1 {
 	color: #FFF;
 	background-color: #A2CA29;
   position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+
 }
-.feature-one-part-one {
+.feature1-part-one {
 	color: #FFF;
 	background-color: #A2CA29;
 }
@@ -195,63 +204,66 @@ second section of the page
 /*=======================
 second part in section 2
 ==================================*/
-.feature-one-part-two{
+.feature1-part-two{
 	color: #4D545F;
 	background-color: #FFF;
 	text-align: center;
 }
-.fitness-first {
+.content-1-third {
 	padding: 4.2em 2em;
 }
-.feature-one-part-two h2 {
+.features-brief {
+  margin-bottom: 1.5em;
+}
+.feature1-part-two h2 {
 	color: #A2CA29; /*//green heading*/
 	margin-bottom: 0.7em;
 }
-.feature-one-part-two p {
+.feature1-part-two p {
 	margin: 1.2em 2em 0 2em;
 }
-.feature-one-part-two h5 {
+.feature1-part-two h5 {
 	color: #F0785D; /*//red heading*/
 	font-weight: 600;
 }
-.feature-one-part-two i {
+.feature1-part-two i {
 	font-size: 1.4em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+  position: relative;
+  bottom: 50%;
+  left: 45%;
 	color: #CFDEDA; /*//grey icon*/
 }
-.fitness-first>a {
+.content-1-third>h5 {
+  font-weight: 600;
+  /*margin-bottom: 10px;*/
+}
+.content-1-third>a {
 	color: #A2CA29;
 	text-decoration: none;
 }
-.fitness-first>a:hover {
+.content-1-third>a:hover {
 	color: #F0785D;
 	text-decoration: none;
 }
 /*================================
 the image beside fitness first
 ===================================*/
-.fitness-image {
+.content-2-third-woman {
+  background-color: #CFDEDA;
 	background-size: cover;
-	object-fit: fill;
-	max-height: 100%;
-	max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 420px;
+  background-image: url(../images/stretch.jpg);
 }
-.fitness-image>img {
-	display: inline-block;
-	position: relative;
-	width: 102%;
-	max-width: 102%
-}
-.body-image {
+
+.content-2-third-love-body {
+  background-color: #CFDEDA;
 	background-size: cover;
-	object-fit: fill;
-	max-height: 100%;
-	max-width: 100%;
-}
-.body-image>img {
-	display: inline-block;
-	position: relative;
-	width: 102%;
-	max-width: 102%
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 420px;
+  background-image: url(../images/wrist.jpg);
 }
