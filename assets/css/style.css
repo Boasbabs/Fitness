@@ -65,7 +65,7 @@ h1 {
   font-size: 40px;
 }
 h2 {
-  font-size: 32px;
+  font-size: 35px;
 }
 
 /* COLORS===========================
@@ -175,13 +175,10 @@ second section of the page
   margin-right: auto;
   padding-left: 0.9rem;
   padding-right: 0.9rem;
-
 }
 .feature1-part-one {
 	color: #FFF;
 	background-color: #A2CA29;
-  margin-top: 6em;
-  margin-bottom: 6em;
 }
 .explain-more {
 	color: #FFF;
@@ -189,6 +186,10 @@ second section of the page
 .explain-more:hover {
 	color: #F0785D;
 	text-decoration: none;
+}
+.col-feature {
+	margin-top: 6em;
+	margin-bottom: 6em;
 }
 .col-feature>i {
 	font-size: 3em;
@@ -216,7 +217,8 @@ second part in section 2
 }
 .feature1-part-two h2 {
 	color: #A2CA29; /*//green heading*/
-	margin-bottom: 0.7em;
+	margin-bottom: 0.65em;
+  margin-top: 0.5em;
 }
 .feature1-part-two p {
 	margin: 1.2em 2em 0 2em;
@@ -244,9 +246,6 @@ second part in section 2
 	color: #F0785D;
 	text-decoration: none;
 }
-/*================================
-the image beside fitness first
-===================================*/
 .content-2-third-woman {
   background-color: #CFDEDA;
 	background-size: cover;
@@ -265,4 +264,72 @@ the image beside fitness first
   position: relative;
   height: 420px;
   background-image: url(../images/wrist.jpg);
+}
+/*=======================================
+Feature2 section of the page
+======================================*/
+#feature2 {
+	color: #FFF;
+	background-color: #FD634E;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+#col-lg-4{
+  padding: 0;
+}
+#col-lg-8{
+  padding: 0;
+}
+.content-1-third-jog {
+  background-color: #CFDEDA;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  background-image: url(../images/jogging.jpg);
+}
+.content-2-third-beach {
+  background-color: #CFDEDA;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  background-image: url(../images/beach.jpg);
+}
+.content-2-third-summer {
+  background-color: #A2CA29;
+  color: #FFF;
+  height: 300px;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.content-2-third-summer>h2 {
+  margin: 0.8em 2em 0 0.9em;
+  color: #FFF;
+}
+.content-1-third-track {
+  padding: 2em 2em;
+  height: 300px;
+  text-align: left;
+}
+.content-1-third-track>h5 {
+  font-weight: 600;
+  margin: 1.2em 2em 0 2em;
+}
+.content-1-third-track>h2 {
+  margin: 0.5em 2em 0 0.9em;
+}
+.feature1-part-two i.ion-ios-person {
+  position: absolute;
+  top: 58%;
+  left: 79%;
+  font-size: 3em;
+	color: #CFDEDA; /*//grey icon*/
 }
