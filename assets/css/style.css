@@ -195,8 +195,9 @@ second section of the page
 	font-size: 3em;
 	margin-top: 1em;
 }
-.col-feature>h4 {
+.col-feature>h2 {
 	text-transform: capitalize;
+  font-size: 24px;
 	margin: 0.8em 0;
 	font-weight: 400;
 }
@@ -326,10 +327,69 @@ Feature2 section of the page
 .content-1-third-track>h2 {
   margin: 0.5em 2em 0 0.9em;
 }
-.feature1-part-two i.ion-ios-person {
+i.ion-ios-person {
   position: absolute;
   top: 58%;
   left: 79%;
   font-size: 3em;
 	color: #CFDEDA; /*//grey icon*/
+}
+/*second part of feature2 ==============*/
+.content-1-third-avocado {
+  background-color: #CFDEDA;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  background-image: url(../images/avocado.jpg);
+}
+.content-2-third-grapes {
+  background-color: #CFDEDA;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
+  background-image: url(../images/grapes.jpg);
+}
+.content-1-third-habits {
+  padding: 3em 1em;
+  height: 300px;
+  text-align: left;
+  color: #FFF;
+  background-color: #A2CA29; /* //green icon */
+}
+.content-1-third-habits>h5 {
+  color: #FFF;
+  font-weight: 600;
+  margin: 1.2em 2em 0 2em;
+}
+.content-1-third-habits>h2 {
+  margin: 0.5em 2em 0 0.9em;
+  color: #FFF;
+}
+.content-2-third-involved {
+  background-color: #FFF;
+  height: 300px;
+  text-align: left;
+  padding-top: 4em;
+  padding-left: 2em;
+}
+ i.ion-egg {
+  position: absolute;
+  top: 60%;
+  left: 83%;
+  font-size: 2.1em;
+	color: #FFF;
+}
+i.ion-ios-flower {
+  position: absolute;
+  top: 60%;
+  left: 89%;
+  font-size: 2.2em;
+  color: #CFDEDA; /* //grey icon */
+}
+.content-2-third-involved>p{
+  margin-left: 0;
 }
