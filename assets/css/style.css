@@ -237,7 +237,6 @@ second part in section 2
 }
 .content-1-third>h5 {
   font-weight: 600;
-  /*margin-bottom: 10px;*/
 }
 .content-1-third>a {
 	color: #A2CA29;
@@ -247,7 +246,7 @@ second part in section 2
 	color: #F0785D;
 	text-decoration: none;
 }
-.content-2-third-woman {
+.content-2-third-woman, .content-2-third-love-body {
   background-color: #CFDEDA;
 	background-size: cover;
   background-position: center;
@@ -258,12 +257,6 @@ second part in section 2
 }
 
 .content-2-third-love-body {
-  background-color: #CFDEDA;
-	background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 420px;
   background-image: url(../images/wrist.jpg);
 }
 /*=======================================
@@ -285,7 +278,7 @@ Feature2 section of the page
 #col-lg-8{
   padding: 0;
 }
-.content-1-third-jog {
+.content-1-third-jog, .content-2-third-beach {
   background-color: #CFDEDA;
 	background-size: cover;
   background-position: center;
@@ -295,12 +288,6 @@ Feature2 section of the page
   background-image: url(../images/jogging.jpg);
 }
 .content-2-third-beach {
-  background-color: #CFDEDA;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 300px;
   background-image: url(../images/beach.jpg);
 }
 .content-2-third-summer {
@@ -335,7 +322,7 @@ i.ion-ios-person {
 	color: #CFDEDA; /*//grey icon*/
 }
 /*second part of feature2 ==============*/
-.content-1-third-avocado {
+.content-1-third-avocado, .content-2-third-grapes {
   background-color: #CFDEDA;
   background-size: cover;
   background-position: center;
@@ -345,12 +332,6 @@ i.ion-ios-person {
   background-image: url(../images/avocado.jpg);
 }
 .content-2-third-grapes {
-  background-color: #CFDEDA;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 300px;
   background-image: url(../images/grapes.jpg);
 }
 .content-1-third-habits {
@@ -392,4 +373,116 @@ i.ion-ios-flower {
 }
 .content-2-third-involved>p{
   margin-left: 0;
+}
+/*=======================================
+Footer of the page
+======================================*/
+footer {
+  width: 100%;
+  position: relative;
+  background-color: #0D1119; /* Dark navy blue */
+  color: #FFF;
+  overflow: hidden;
+}
+.launch-ideas {
+  background-color: #CFDEDA;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  background-image: url(../images/sunset.jpg);
+  padding-top: 4em;
+  padding-left: 4em;
+}
+.launch-caption {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%
+}
+.launch-ideas .launch-caption > h2 {
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.launch-ideas .launch-caption > p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.7em;
+  font-size: 18px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.bg-angled-left, .bg-angled-right {
+  position: absolute;
+  background-color: #0D1119;
+  height: 100%;
+  width: 100%;
+  transform: skewY(-2.5deg);
+  -webkit-transform-origin: left;
+  transform-origin: left center 0px;
+}
+.bg-angled-right {
+  transform: skewY(3deg);
+  -webkit-transform-origin: right;
+  transform-origin: right center 0px;
+}
+.red-angle {
+  position: relative;
+  left: -60%;
+  transform: skewX(88deg);
+  width: 100%;
+  height: 30px;
+  margin-bottom: 50px;
+  background-color: #FE634F;
+  overflow: hidden;
+}
+.footer-details {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 135px;
+}
+.footer-details > .row {
+  margin-bottom: 3em;
+}
+.footer-form {
+  width: 100%;
+}
+.footer-details h3 {
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.footer-details a {
+  padding-right: 20px;
+}
+.footer-details a>i {
+  font-size: 3em;
+}
+.footer-details a>i.ion-social-facebook {
+  color: #3033A0;
+}
+.footer-details a>i.ion-social-twitter {
+  color: #2CB0E0;
+}
+.footer-details a>i.ion-social-youtube{
+  color: #F42213;
+}
+.footer-details a>i.ion-social-linkedin {
+  color:#4146E0;
+}
+.form-inline input, .form-inline button {
+  height: 50px;
+  color: #8297a7;
+  margin-right: 5px;
+  padding-left: 20px;
+}
+button.btn-join {
+    color: #FFF;
+    background-color: #A2CA29;
 }
